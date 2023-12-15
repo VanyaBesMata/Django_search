@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{% static '/my_js/scripts.js' %}"></script>
+    <link rel="stylesheet" href="{% static '/my_css/style.css' %}" type="text/css">
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

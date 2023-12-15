@@ -1,0 +1,25 @@
+#search-container {
+position: relative;
+width: 100%;
+text-align: center;
+margin-top: 50px;
+}
+
+#search-box {
+transition: all 0.3s;
+width: 300px;
+border: 2px solid #ccc;
+padding: 8px;
+font-size: 16px;
+}
+
+#search-box.shrink {
+width: 200px;
+position: absolute;
+top: 20px;
+right: 20px;
+}
+
+#results {
+margin-top: 20px;
+}
